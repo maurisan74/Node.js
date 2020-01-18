@@ -17,7 +17,8 @@ app.use('/api/proyectos', require('./routes/proyectos'));
 app.use('/api/instalaciones', require('./routes/instalaciones'));
 app.use('/api/tiposTrabajos', require('./routes/tipostrabajos'));
 app.use('/api/equipos', require('./routes/equipos'));
-
+app.use('/api/comp_head', require('./routes/comp_head'));
+app.use('/api/comp_body', require('./routes/comp_body'));
 //app.use('/api/clientes', require('./routes/clientes'));
 
 //middlewares
